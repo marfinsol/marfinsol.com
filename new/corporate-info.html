@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="../../cxl/dist/ui/index.bundle.js"></script>
+		<title>marfinsol - Corporate Information</title>
+		<style>
+			.logo {
+				display: block;
+				margin: 16px auto 48px auto;
+			}
+		</style>
+	</head>
+	<body>
+		<cxl-meta></cxl-meta>
+		<cxl-page>
+			<img class="logo" src="images/logo.png" />
+			<cxl-form>
+				<cxl-data-source>
+					<cxl-t h5>Contact Information</cxl-t>
+					<cxl-grid>
+						<cxl-c sm8>
+							<cxl-field-input label="Name"></cxl-field-input>
+						</cxl-c>
+						<cxl-c sm4>
+							<cxl-field-input label="SSN"></cxl-field-input>
+						</cxl-c>
+						<cxl-c sm4>
+							<cxl-field-input label="Mobile"></cxl-field-input>
+						</cxl-c>
+						<cxl-c sm4>
+							<cxl-field-input
+								label="Home Phone"
+							></cxl-field-input>
+						</cxl-c>
+						<cxl-c sm4>
+							<cxl-field-input
+								label="Work Phone"
+							></cxl-field-input>
+						</cxl-c>
+						<cxl-c sm12>
+							<cxl-field-input label="E-mail"></cxl-field-input>
+						</cxl-c>
+					</cxl-grid>
+					<cxl-t h5>Company Information</cxl-t>
+					<cxl-field-input
+						label="Legal business name of entity (or individual) for whom the EIN is being requested"
+					></cxl-field-input>
+					<cxl-field-input
+						label="Start Business Date"
+					></cxl-field-input>
+					<cxl-field-input label="EIN"></cxl-field-input>
+					<cxl-field-input
+						label="Trade name of business"
+					></cxl-field-input>
+					<cxl-field-input
+						label="Name of the initial registered agent"
+					></cxl-field-input>
+					<cxl-field-input
+						label="Principal Business Address"
+					></cxl-field-input>
+					<cxl-field-input
+						label="County and state where principal business is located"
+					></cxl-field-input>
+					<cxl-field-textarea
+						label="What is the purpose of your business"
+					></cxl-field-textarea>
+					<cxl-t h5>Legal Structure</cxl-t>
+					<cxl-radio name="legal-structure"
+						>Sole Proprietor</cxl-radio
+					>
+					<cxl-radio name="legal-structure">Partnerships</cxl-radio>
+					<cxl-radio name="legal-structure">Corporations</cxl-radio>
+					<cxl-radio name="legal-structure"
+						>Limited Liability Company(LLC)</cxl-radio
+					>
+					<p>
+						Select the option that best describes the principal
+						activity of your business.
+					</p>
+					<cxl-radio name="principal-activity"
+						>Accommodations: Casino hotel, hotel, or
+						motel.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Construction: Building houses/residential structures,
+						building industrial/commercial structures, specialty
+						trade contractors, remodelers, heavy construction
+						contractors, land subdivision contractors, or site
+						preparation contractors.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Finance: Banks, sales financing, credit card issuing,
+						mortgage company/broker, securities broker, investment
+						advice, or trust administration.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Food Services: Retail fast food, restaurant, bar,
+						coffee shop, catering, or mobile food
+						service.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Health Care: Doctor, mental health specialist,
+						hospital, or outpatient care center.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Insurance: Insurance company or broker.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Manufacturing: Mechanical, physical, or chemical
+						transformation of materials/substances/components into
+						new products, including the assembly of
+						components.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Real Estate: Renting or leasing real estate, managing
+						real estate, real estate agent/broker, selling, buying,
+						or renting real estate for others.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Rental &amp; Leasing: Rent/lease automobiles, consumer
+						goods, commercial goods, or industrial goods.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Retail: Retail store, internet sales (exclusively),
+						direct sales (catalogue, mail-order, door to door),
+						auction house, or selling goods on auction
+						sites.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Social Assistance: Youth services, residential care
+						facility, services for the disabled, or community
+						food/housing/ relief services.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Transportation: Air transportation, rail
+						transportation, water transportation, trucking,
+						passenger transportation, support activity for
+						transportation, or delivery/courier service.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Warehousing: Operating warehousing or storage
+						facilities for general merchandise, refrigerated goods,
+						or other warehouse products; establishments that provide
+						facilities to store goods but do not sell the goods they
+						handle.</cxl-radio
+					>
+					<cxl-radio name="principal-activity"
+						>Wholesale: Wholesale agent/broker, importer, exporter,
+						manufacturers’ representative, merchant, distributor, or
+						jobber.</cxl-radio
+					>
+					<cxl-radio name="principal-activity">Other</cxl-radio>
+					<cxl-field-input
+						style="margin-left: 32px;"
+						label="Other Principal Activity"
+					></cxl-field-input>
+
+					<cxl-field-textarea
+						label="Directors Members"
+					></cxl-field-textarea>
+
+					<cxl-c pad16>
+						<cxl-t center>
+							<cxl-submit>Submit Information</cxl-submit>
+							<br /><br />
+							<p>
+								<small
+									>We consider all information provided to be
+									absolutely confidential. All information is
+									strictly for our company’s use in providing
+									you with the highest quality advertising
+									design.</small
+								>
+							</p>
+						</cxl-t>
+					</cxl-c>
+				</cxl-data-source>
+			</cxl-form>
+		</cxl-page>
+	</body>
+</html>
